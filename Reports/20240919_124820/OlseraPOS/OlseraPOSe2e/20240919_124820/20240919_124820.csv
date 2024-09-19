@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OlseraPOSe2e,,,,19-09-2024 12:48:26,19-09-2024 12:50:38,2m - 12.243s,PASSED
+,,,,,,,
+Test Cases/loginstaff,,,,19-09-2024 12:48:26,19-09-2024 12:49:03,37.598s,PASSED
+"startExistingApplication(""com.olserapratama.pos"")",,,,19-09-2024 12:48:26,19-09-2024 12:48:39,13.445s,PASSED
+enableSmartWait(),,,,19-09-2024 12:48:39,19-09-2024 12:48:39,0.056s,PASSED
+"tap(findTestObject(""Object Repository/Login Staff/android.widget.ImageView""), 0)",,,,19-09-2024 12:48:39,19-09-2024 12:48:43,4.190s,PASSED
+"tap(findTestObject(""Object Repository/Login Staff/android.widget.ImageView""), 0)",,,,19-09-2024 12:48:43,19-09-2024 12:48:44,0.271s,PASSED
+"tap(findTestObject(""Object Repository/Login Staff/android.widget.EditText - Store ID""), 0)",,,,19-09-2024 12:48:44,19-09-2024 12:48:47,3.138s,PASSED
+"setText(findTestObject(""Object Repository/Login Staff/android.widget.EditText - Store ID (1)""), ""sukucadangmobil"", 0)",,,,19-09-2024 12:48:47,19-09-2024 12:48:50,2.963s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Staff/android.widget.EditText - sukucadangmobil""), ""sukucadangmobil"")",,,,19-09-2024 12:48:50,19-09-2024 12:48:51,0.797s,PASSED
+"tap(findTestObject(""Object Repository/Login Staff/android.widget.EditText - Staff Code""), 0)",,,,19-09-2024 12:48:51,19-09-2024 12:48:51,0.796s,PASSED
+"setText(findTestObject(""Object Repository/Login Staff/android.widget.EditText - Staff Code (1)""), ""P01"", 0)",,,,19-09-2024 12:48:51,19-09-2024 12:48:53,1.496s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Staff/android.widget.EditText - P01""), ""P01"")",,,,19-09-2024 12:48:53,19-09-2024 12:48:54,0.799s,PASSED
+"tap(findTestObject(""Object Repository/Login Staff/android.widget.EditText - Password""), 0)",,,,19-09-2024 12:48:54,19-09-2024 12:48:55,1.070s,PASSED
+"setText(findTestObject(""Object Repository/Login Staff/android.widget.EditText - Password (1)""), ""P01"", 0)",,,,19-09-2024 12:48:55,19-09-2024 12:48:57,2.082s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Login Staff/android.widget.Button - Sign In""), 0)",,,,19-09-2024 12:48:57,19-09-2024 12:48:58,0.734s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Login Staff/android.widget.Button - Sign In""), 0)",,,,19-09-2024 12:48:58,19-09-2024 12:48:58,0.121s,PASSED
+"tap(findTestObject(""Object Repository/Login Staff/android.widget.Button - Sign In""), 0)",,,,19-09-2024 12:48:58,19-09-2024 12:48:59,0.885s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.Button - DENY""), 0)",,,,19-09-2024 12:48:59,19-09-2024 12:49:02,3.289s,PASSED
+closeApplication(),,,,19-09-2024 12:49:02,19-09-2024 12:49:03,1.346s,PASSED
+,,,,,,,
+Test Cases/processorder,,,,19-09-2024 12:49:03,19-09-2024 12:49:47,43.597s,PASSED
+"startExistingApplication(""com.olserapratama.pos"")",,,,19-09-2024 12:49:03,19-09-2024 12:49:12,8.888s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.Button - DENY""), 0)",,,,19-09-2024 12:49:12,19-09-2024 12:49:15,2.893s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView -""), 0)",,,,19-09-2024 12:49:15,19-09-2024 12:49:17,1.573s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Process Order/android.widget.TextView - (1)""), """")",,,,19-09-2024 12:49:17,19-09-2024 12:49:18,1.396s,PASSED
+pressBack(),,,,19-09-2024 12:49:18,19-09-2024 12:49:18,0.240s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.ImageView""), 0)",,,,19-09-2024 12:49:18,19-09-2024 12:49:20,1.625s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView - (2)""), 0)",,,,19-09-2024 12:49:20,19-09-2024 12:49:21,1.350s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.EditText - 0""), 0)",,,,19-09-2024 12:49:21,19-09-2024 12:49:23,1.393s,PASSED
+"setText(findTestObject(""Object Repository/Process Order/android.widget.EditText - 0 (1)""), ""10000"", 0)",,,,19-09-2024 12:49:23,19-09-2024 12:49:26,3.169s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/androidx.drawerlayout.widget.DrawerLayout""), 0)",,,,19-09-2024 12:49:26,19-09-2024 12:49:27,1.155s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.EditText - Notes""), 0)",,,,19-09-2024 12:49:27,19-09-2024 12:49:28,1.089s,PASSED
+"setText(findTestObject(""Object Repository/Process Order/android.widget.EditText - Notes (1)""), ""Create Automation Order Item"", 0)",,,,19-09-2024 12:49:28,19-09-2024 12:49:31,3.293s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/androidx.drawerlayout.widget.DrawerLayout""), 0)",,,,19-09-2024 12:49:31,19-09-2024 12:49:33,1.930s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView - Save""), 0)",,,,19-09-2024 12:49:33,19-09-2024 12:49:34,0.435s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Process Order/android.widget.TextView - Rp 1,990,000""), 0)",,,,19-09-2024 12:49:34,19-09-2024 12:49:35,0.730s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Process Order/android.widget.TextView - Rp 1,990,000""), ""Rp 1,990,000"")",,,,19-09-2024 12:49:35,19-09-2024 12:49:35,0.471s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView - Rp 1,990,000""), 0)",,,,19-09-2024 12:49:35,19-09-2024 12:49:35,0.490s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Process Order/android.widget.TextView - Select Payment Mode""), 0)",,,,19-09-2024 12:49:35,19-09-2024 12:49:37,1.146s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Process Order/android.widget.TextView - CASH""), 0)",,,,19-09-2024 12:49:37,19-09-2024 12:49:37,0.536s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView - CASH""), 0)",,,,19-09-2024 12:49:37,19-09-2024 12:49:38,1.211s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Process Order/android.widget.TextView - Rp 1,990,000 (1)""), ""Rp 1,990,000"")",,,,19-09-2024 12:49:38,19-09-2024 12:49:39,0.497s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Process Order/android.widget.TextView - Rp 1,990,000""), ""Rp 1,990,000"")",,,,19-09-2024 12:49:39,19-09-2024 12:49:39,0.609s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView - Pay""), 0)",,,,19-09-2024 12:49:39,19-09-2024 12:49:40,0.700s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Process Order/android.widget.TextView - 1,990,000""), ""1,990,000"")",,,,19-09-2024 12:49:40,19-09-2024 12:49:41,1.054s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView - (3)""), 0)",,,,19-09-2024 12:49:41,19-09-2024 12:49:42,0.509s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.LinearLayout""), 0)",,,,19-09-2024 12:49:42,19-09-2024 12:49:43,0.769s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.TextView - Transactions""), 0)",,,,19-09-2024 12:49:43,19-09-2024 12:49:44,1.389s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Process Order/android.widget.TextView - 1,990,000 - CASH""), ""1,990,000 - CASH"")",,,,19-09-2024 12:49:44,19-09-2024 12:49:46,1.851s,PASSED
+closeApplication(),,,,19-09-2024 12:49:46,19-09-2024 12:49:47,1.112s,PASSED
+,,,,,,,
+Test Cases/sendreceipt,,,,19-09-2024 12:49:47,19-09-2024 12:50:10,23.602s,PASSED
+"startExistingApplication(""com.olserapratama.pos"")",,,,19-09-2024 12:49:47,19-09-2024 12:49:55,7.804s,PASSED
+"tap(findTestObject(""Object Repository/Process Order/android.widget.Button - DENY""), 0)",,,,19-09-2024 12:49:55,19-09-2024 12:49:57,1.853s,PASSED
+"tap(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView -""), 0)",,,,19-09-2024 12:49:57,19-09-2024 12:49:59,1.916s,PASSED
+"tap(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - Transactions""), 0)",,,,19-09-2024 12:49:59,19-09-2024 12:50:00,1.416s,PASSED
+"tap(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - 062C24091900000001""), 0)",,,,19-09-2024 12:50:00,19-09-2024 12:50:02,2.136s,PASSED
+"tap(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - (1)""), 0)",,,,19-09-2024 12:50:02,19-09-2024 12:50:03,0.442s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - Email""), 0)",,,,19-09-2024 12:50:03,19-09-2024 12:50:04,1.394s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Send E Receipt/android.widget.ImageButton""), 0)",,,,19-09-2024 12:50:04,19-09-2024 12:50:04,0.176s,PASSED
+"tap(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - Email""), 0)",,,,19-09-2024 12:50:04,19-09-2024 12:50:04,0.205s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Send E Receipt/android.widget.FrameLayout""), 0)",,,,19-09-2024 12:50:04,19-09-2024 12:50:06,1.445s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Send E Receipt/android.widget.EditText - Recipients Email""), 0)",,,,19-09-2024 12:50:06,19-09-2024 12:50:06,0.179s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - CANCEL""), 0)",,,,19-09-2024 12:50:06,19-09-2024 12:50:06,0.161s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - CANCEL""), 0)",,,,19-09-2024 12:50:06,19-09-2024 12:50:06,0.163s,PASSED
+"setText(findTestObject(""Send E Receipt/android.widget.EditText - Recipients Email""), ""olseratest@mailinator.com"", 0)",,,,19-09-2024 12:50:06,19-09-2024 12:50:08,2.167s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - CONFIRM""), 0)",,,,19-09-2024 12:50:08,19-09-2024 12:50:09,0.820s,PASSED
+"tap(findTestObject(""Object Repository/Send E Receipt/android.widget.TextView - CONFIRM""), 0)",,,,19-09-2024 12:50:09,19-09-2024 12:50:09,0.237s,PASSED
+enableSmartWait(),,,,19-09-2024 12:50:09,19-09-2024 12:50:09,0.006s,PASSED
+closeApplication(),,,,19-09-2024 12:50:09,19-09-2024 12:50:10,1.024s,PASSED
+,,,,,,,
+Test Cases/checkemail,,,,19-09-2024 12:50:10,19-09-2024 12:50:38,27.320s,PASSED
+"startExistingApplication(""com.android.chrome"")",,,,19-09-2024 12:50:11,19-09-2024 12:50:18,7.536s,PASSED
+"tap(findTestObject(""Object Repository/Check Email/android.widget.EditText - Search or type URL""), 0)",,,,19-09-2024 12:50:18,19-09-2024 12:50:26,8.420s,PASSED
+"setText(findTestObject(""Object Repository/Check Email/android.widget.EditText - Search or type URL (1)""), ""https://www.mailinator.com/v4/public/inboxes.jsp?to=olseratest"", 0)",,,,19-09-2024 12:50:26,19-09-2024 12:50:30,3.880s,PASSED
+"tap(findTestObject(""Object Repository/Check Email/android.widget.TextView - httpswww.mailinator.comv4publicinboxes.jsptoolseratest""), 0)",,,,19-09-2024 12:50:30,19-09-2024 12:50:32,1.187s,PASSED
+"scrollToText(""olseratest"")",,,,19-09-2024 12:50:32,19-09-2024 12:50:33,1.952s,PASSED
+"tap(findTestObject(""Object Repository/Check Email/android.view.View""), 0)",,,,19-09-2024 12:50:33,19-09-2024 12:50:35,1.485s,PASSED
+"scrollToText(""Back to Inbox"")",,,,19-09-2024 12:50:35,19-09-2024 12:50:36,1.320s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Check Email/android.view.View (1)""), 0)",,,,19-09-2024 12:50:36,19-09-2024 12:50:37,0.396s,PASSED
+closeApplication(),,,,19-09-2024 12:50:37,19-09-2024 12:50:38,1.111s,PASSED
